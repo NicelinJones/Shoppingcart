@@ -3,36 +3,36 @@
         "id":1,
         "name":"Yellow flowers",
         "price":100,
-        "image":"pexels-photo-2317922.jpeg"
+        "image":"./pexels-photo-2317922.jpeg"
     },
     {
         "id":2,
         "name":"Pink flowers",
         "price":100,
-        "image":"flowerful-flowery-flowerly-42257.jpeg"
+        "image":"./flowerful-flowery-flowerly-42257.jpeg"
     },
     {
         "id":3,
         "name":"Mixed flowers",
         "price":200,
-        "image":"pexels-photo-74512.jpeg"
+        "image":"./pexels-photo-74512.jpeg"
     },
     {
         "id":4,
         "name":"Red flowers",
         "price":30,
-        "image":"pexels-photo-894751.jpeg"
+        "image":"./pexels-photo-894751.jpeg"
     },
     {
         "id":5,
         "name":"Royal flowers",
         "price":300,
-        "image":"pexels-photo-931168.jpeg"
+        "image":"./pexels-photo-931168.jpeg"
     },
     {
         "id":6,
         "name":"Paneer roses",
         "price":300,
-        "image":"pexels-photo-1167050.jpeg"
+        "image":"./pexels-photo-1167050.jpeg"
     }
 ]
