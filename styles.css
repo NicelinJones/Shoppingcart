@@ -92,7 +92,7 @@ header .icon-cart span{
    color:#eee;
     position :absolute;
     top:0;
-    right:-100%;
+    right:-150%;
 
     display:grid;
     grid-template-rows:70px 1fr  70px 70px;
