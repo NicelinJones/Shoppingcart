@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+  font-family: "Poppins", sans-serif;
+  margin:0;
+}
+.j1{
+    width:70%;
+    background-color:cornflowerblue;
+    margin:auto;
+    text-align: center;
+    transition: transform .5s;
+}
+.j1 img{
+
+margin-left: 70px;
+}
+header{
+    background-color:green;
+    background-image: url("./headerbackground.jpg");
+    background-blend-mode:lighten;
+    height: 70px;
+    display:flex;
+    align-items: center;
+    margin-top:0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header nav a{
+
+    margin-right: 40px;
+}
+header nav a:hover{
+    background-color:whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+.j1 h1{
+    color:blue;
+    text-align: center;
+    font-style: italic;
+}
+.j1 h2{
+    color:chartreuse;
+    text-align: center;
+}
+.j1 p{
+    color:black;
+        text-indent: 75px;
+        text-align: justify;
+      }
+
+.j1 span{
+    color: crimson;
+    text-align: center;
+}
+@media only screen and (max-width:320px){
+    .j1{
+        width: 100%;
+     }
+     
+    .j1 img{
+    height:150px;
+    width:150px;
+}
+.j1 p{
+    font-size:smaller ;
+
+}
+.j1 blockquote{
+    font-size:smaller ;
+
+}
+.j1 img{
+    grid-template-columns:repeat(1, 1fr);
+}
+}
+
+@media only screen and (min-width: 321px) and (max-width:480px) {
+    .j1{
+        width:90%;
+    }
+    .j1 img{
+        height:150px;
+        width:150px;
+    }
+       .j1 p{ font-size:small ;
+    
+    }
+   .j1 blockquote{
+        font-size:small;
+    
+    }
+    .j1 img{
+        grid-template-columns:repeat(2, 1fr);
+    }
+
+    
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .j1 img{
+        height:300px;
+        width:300px;
+    }
+    .j1 p{
+        font-size:medium;
+    
+    }
+    .j1 blockquote{
+        font-size:medium;
+    
+    }
+    .j1 img{
+        grid-template-columns:repeat(2, 1fr);
+    }
+
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .j1 img{
+        height:400px;
+        width:400px;
+    }
+    
+    .j1 p{
+        font-size:medium;    
+    }
+    .j1 blockquote{
+        font-size:medium ;
+    
+    }
+    .j1 img{
+        grid-template-columns:repeat(2, 1fr);
+    }
+}
+
+/* Media Query for Laptops and Desktops */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    .j1 img{
+        height:500px;
+        width:500px;
+    }
+    
+    .j1 p{
+        font-size:large;
+    
+    }
+    .j1 blockquote{
+        font-size:large;
+    
+    }
+    .j1 img{
+        grid-template-columns:repeat(2, 1fr);
+    }
+}
+
+/* Media Query for Large screens */
+@media only screen and (min-width: 1281px) {
+    
+    
+    .j1 p{
+        font-size:large;    
+    }
+    .j1 blockquote{
+        font-size:large;
+    
+    }
+    .j1 img{
+        grid-template-columns:repeat(2, 1fr);
+    }
+}   
